@@ -35,7 +35,11 @@
     echo '<pre>';
       print_r($a);
     echo '</pre>';
-
+    //----------------------------------------
+    $xml = simplexml_load_file("includes/cds.xml");
+    echo '<pre>';
+      print_r($xml);
+    echo '</pre>';
 
 
      ?>
